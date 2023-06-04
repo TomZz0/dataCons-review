@@ -131,6 +131,10 @@
     <ClCompile Include="BiTree.cpp" />
     <ClCompile Include="BiTreeTest.cpp" />
     <ClCompile Include="DataContructorReview.cpp" />
+    <ClCompile Include="graph_linked.cpp" />
+    <ClCompile Include="graph_linked_test.cpp" />
+    <ClCompile Include="graph_matrix_Test.cpp" />
+    <ClCompile Include="graph_maxtrix.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
     <ClCompile Include="LinkedQueue.cpp" />
@@ -146,6 +150,8 @@
   <ItemGroup>
     <ClInclude Include="BiThrTree.h" />
     <ClInclude Include="BiTree.h" />
+    <ClInclude Include="graph_linked.h" />
+    <ClInclude Include="graph_maxtrix.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="LinkedQueue.h" />
     <ClInclude Include="LinkedStack.h" />

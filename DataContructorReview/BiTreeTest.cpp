@@ -1,6 +1,6 @@
 #include"BiThrTree.h"
 #include"BiTree.h"
-void main() {
+void main_bitree() {
 	BiTree T = createBiSortedTree(13);
 	InOrderRecursionTraverse(T);
 	cout << "\n";

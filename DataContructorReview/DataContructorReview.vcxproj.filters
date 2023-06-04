@@ -60,6 +60,18 @@
     <ClCompile Include="二分查找.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="graph_maxtrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_matrix_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_linked.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_linked_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList.h">
@@ -84,6 +96,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="BiThrTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_maxtrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_linked.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
