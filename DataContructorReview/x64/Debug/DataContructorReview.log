@@ -1,4 +1,4 @@
-﻿  graph_linked.cpp
-C:\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(971,1): warning C4005: “OVERFLOW”: 宏重定义
-D:\develop\vs\DataContructorReview\DataContructorReview\Status.h(3,1): message : 参见“OVERFLOW”的前一个定义
+﻿  SortTest.cpp
+D:\develop\vs\DataContructorReview\DataContructorReview\sort.h(1,1): warning C4828: 文件包含在偏移 0x271 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\develop\vs\DataContructorReview\DataContructorReview\SortTest.cpp(2,13): warning C4326: “main”的返回类型应为“int”而非“void”
   DataContructorReview.vcxproj -> D:\develop\vs\DataContructorReview\x64\Debug\DataContructorReview.exe
