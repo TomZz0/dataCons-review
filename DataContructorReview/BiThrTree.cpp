@@ -10,15 +10,15 @@ void InOrderRecursionTraverse(BiThrTree T) {
 }
 
 
-void CrateBTree(BiThrTree& T) {
+void CreateBTree(BiThrTree& T) {
 	char ch;
 	cin >> ch;
 	if (ch == '#') T = NULL;
 	else {
 		T = new BiThrNode;
 		T->data = ch;
-		CrateBTree(T->l);
-		CrateBTree(T->r);
+		CreateBTree(T->l);
+		CreateBTree(T->r);
 	}
 }
 void InThreading(BiThrTree& T) {
@@ -74,3 +74,26 @@ void InOrderTraverse(BiThrTree T) {
 
 	}
 }
+
+
+void AllPath(BiThrNode* b, char path[], int pathlen)
+{
+	int i;
+	if (b != NULL)
+	{
+		if (b->l== NULL && b->r == NULL) //*b为叶子结点
+		{
+			cout << " " << b->data << "到根结点路径:" << b->data;
+			for (i = pathlen - 1; i >= 0; i--)
+				cout << path[i]<<endl;
+		}
+		else
+		{
+			path[pathlen] = b->data;           //将当前结点放入路径中
+			pathlen++;                     //路径长度增1
+			AllPath(b->l, path, pathlen);   //递归扫描左子树
+			AllPath(b->r, path, pathlen);   //递归扫描右子树
+			                    //恢复环境
+		}
+	}// if (b!=NULL)
+}//算法结束

@@ -1,11 +1,11 @@
 #include"BiThrTree.h"
 #include"BiTree.h"
-void main_bitree() {
-	BiTree T = createBiSortedTree(13);
+void main() {
+	BiThrTree T{};
+	CreateBTree(T);
 	InOrderRecursionTraverse(T);
-	cout << "\n";
-	deleteNode(T, 73);
-	InOrderRecursionTraverse(T);
+	char *path = new char[1024];
+	AllPath(T, path, 0);
 
 	/*BiThrTree T,Thrt;
 	CrateBTree(T);

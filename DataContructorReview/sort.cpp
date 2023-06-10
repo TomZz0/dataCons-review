@@ -139,7 +139,7 @@ void quickSort(int* arr, int start,int end) {
 		//来回覆盖 到最后结束 再补上最开始的值val
 		//右指针指向了小于val的值 让左指针指向的值也为这个值 然后左指针加一
 		//左指针指向了大于val的值 让右指针指向的值也为这个值 然后右指针减一
-		//最后左右指针指向同一个位置 这个值一定是重复值 修改为val
+		//最后左右指针指向同一个位置 这个值一定是重复值 修改为val444
 		while (lp < rp && arr[rp] >= val) rp--;
 		if (lp < rp) arr[lp++] = arr[rp];
 		while (lp < rp && arr[lp] <= val) lp++;
